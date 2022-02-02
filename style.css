@@ -1,0 +1,46 @@
+@import url('https://fonts.google.com/');
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background-color: slategray ;
+  color: whitesmoke ;
+  font-size: 17px ;
+  line-height: 10px
+}
+
+h3 {
+  color: rgb(3, 45, 80);
+  line-height: 4px;
+  font-size: 15px;
+  line-height: 12px;
+}
+a {
+  color: rgb(238, 183, 210);
+}
+a:hover {
+  background-color: rgb(167, 117, 147);
+}
+button:hover {
+  background-color: slategray;
+}
+button {
+  color: rgb(3, 45, 80);
+  font-weight: bold;
+  background-color: rgb(238, 183, 210) ;
+}
+.myDiv {
+  border: 3px outset rgb(238, 183, 210);
+  background-color: slategray;
+  text-align: center;
+  width: 800px;
+  border-radius: 150px ;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 0 auto;
+}
